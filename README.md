@@ -1,9 +1,10 @@
 # The Prompt Makes the Person(a): A Systematic Evaluation of Sociodemographic Persona Prompting for Large Language Models
+
 Authors: Marlene Lutz, Indira Sen, Georg Ahnert, Elisa Rogers, Markus Strohmaier
 
-<a href="https://arxiv.org/abs/2507.16076" target="_blank">Link to the paper</a>
-
 <img src='figure1.png' width='256' align="right">
+
+<a href="https://arxiv.org/abs/2507.16076" target="_blank">Link to the paper</a>
 
 ### Abstract
 
