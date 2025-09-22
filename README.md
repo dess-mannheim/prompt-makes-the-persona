@@ -4,7 +4,7 @@ Authors: Marlene Lutz, Indira Sen, Georg Ahnert, Elisa Rogers, Markus Strohmaier
 
 <a href="https://arxiv.org/abs/2507.16076" target="_blank">Link to the paper</a>
 
-<img src='figure1.png' width='20%' align="right">
+[comment]: <img src='figure1.png' width='20%' align="right">
 
 ### Abstract
 
