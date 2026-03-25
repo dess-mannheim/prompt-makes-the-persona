@@ -14,6 +14,18 @@ Persona prompting is increasingly used in large language models (LLMs) to simula
 
 ### Code coming soon!
 
+data contains the prompts and results
+
+persona_prompts.py contains the code to create task-specific persona prompts.
+
+run_inference.py contains the code to generate multiple outputs to for the simulations
+
+post_processing.py cleans, extracts and merges all relevant information of the LLM input and output.
+
+ai_or_human.py classifies whether the LLM actualy adopted the assigned role during simulation
+
+analysis contains the scripts and aggregated results for the different aevaluation measures from the paper 
+
 
 
 
