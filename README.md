@@ -1,30 +1,79 @@
-# The Prompt Makes the Person(a): A Systematic Evaluation of Sociodemographic Persona Prompting for Large Language Models
+# The Prompt Makes the Person(a)
+### A Systematic Evaluation of Sociodemographic Persona Prompting for Large Language Models
 
-Authors: Marlene Lutz, Indira Sen, Georg Ahnert, Elisa Rogers, Markus Strohmaier
+**Authors:**  
+Marlene Lutz · Indira Sen · Georg Ahnert · Elisa Rogers · Markus Strohmaier
 
-<a href="https://arxiv.org/abs/2507.16076" target="_blank">Link to the paper</a>
+📄 **Paper:**  
+[Link to paper](https://aclanthology.org/2025.findings-emnlp.1261/)
+
+---
 
 <br/>
 
 <img src='figure_1_wide.png'>
 
-### Abstract
+---
 
-Persona prompting is increasingly used in large language models (LLMs) to simulate views of various sociodemographic groups.  However, how a persona prompt is formulated can significantly affect outcomes, raising concerns about the fidelity of such simulations. Using five open-source LLMs, we   systematically examine how different persona prompt strategies, specifically *role adoption* formats and *demographic priming* strategies, influence LLM simulations across 15 intersectional demographic groups in both open- and closed-ended tasks. Our findings show that LLMs struggle to simulate marginalized groups but that the choice of demographic priming and role adoption strategy significantly impacts their portrayal. Specifically, we find that prompting in an *interview*-style format and *name*-based priming can help reduce stereotyping and improve alignment. Surprisingly, smaller models like OLMo-2-7B outperform larger ones such as Llama-3.3-70B. Our findings offer actionable guidance for designing sociodemographic persona prompts in LLM-based simulation studies.
+## 📖 Overview
 
-### Code coming soon!
+Persona prompting is increasingly used with large language models (LLMs) to simulate perspectives of different sociodemographic groups. However, **how persona prompts are formulated strongly influences simulation outcomes**, raising important questions about validity and bias.
 
-data contains the prompts and results
+This repository contains the **codebase and analysis pipeline** accompanying the paper:
 
-persona_prompts.py contains the code to create task-specific persona prompts.
+> **The Prompt Makes the Person(a): A Systematic Evaluation of Sociodemographic Persona Prompting for Large Language Models**
 
-run_inference.py contains the code to generate multiple outputs to for the simulations
+We systematically evaluate how different persona prompting strategies affect LLM behavior across demographic simulations.
 
-post_processing.py cleans, extracts and merges all relevant information of the LLM input and output.
+## 📂 Repository Structure
 
-ai_or_human.py classifies whether the LLM actualy adopted the assigned role during simulation
+* `persona_prompts.py`: Create persona prompts
+* `run_inference.py`: Generate LLM simulations
+* `post_processing.py`: Clean and merge outputs
+* `ai_or_human.py`: Check whether the LLM adopted the assigned role
+* `anonymize.py`: Remove demographic markers
+* `/analysis`: Evaluation scripts & evaluation results
+* `/data`: Prompts and generated outputs
 
-analysis contains the scripts and aggregated results for the different aevaluation measures from the paper 
+## 🚀 Example Usage
+
+### 1. Run LLM Inference
+Generate multiple outputs for simulations.
+
+Example: Generate 10 self-descriptions using Llama-3.1-8B-Instruct:
+
+```bash
+python run_inference.py \
+    --model_id meta-llama/Llama-3.1-8B-Instruct \
+    --task SD \
+    --k 10 \
+    --k_name 1
+```
+
+### 2. Post-Processing
+Clean and merge LLM inputs and outputs into a unified dataset for analysis:
+
+```bash
+python postprocessing.py \
+    --model_id meta-llama/Llama-3.1-8B-Instruct \
+    --task SD
+```
+
+Check whether the model successfully adopted the assigned persona:
+
+```bash
+python python ai_or_human.py \
+    --model_id meta-llama/Llama-3.1-8B-Instruct \
+    --task SD
+```
+
+Remove demographic markers from the LLM outputs (needed for some downstream analyses):
+
+```bash
+python anonymize.py \
+    --model_id meta-llama/Llama-3.1-8B-Instruct \
+    --task SD
+``` 
 
 
 
