@@ -75,6 +75,11 @@ python anonymize.py \
     --task SD
 ``` 
 
+#### OpnionQA
+
+We adapt the code from the original OpinionQA paper from: https://github.com/tatsu-lab/opinions_qa
+To run this analysis, you have to download the human survey data (and save in `opinions_qa/data/human_resp/`) as well as the script `helpers.py` (and rename to `opinionqa_helpers.py`) from the original code repository. After that, to generate the survey alignment results, run the notebook `opinionqa.ipynb`.
+
 
 
 
