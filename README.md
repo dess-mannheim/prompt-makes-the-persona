@@ -83,6 +83,31 @@ After generating the simulations, use the scripts in `/analysis` to evaluate the
 - alignment with survey responses (`/opinion_alignment`)
 - semantic diversity (`/semantic_diversity`)
 
+## 📌 Citation
+If you use this repository in your research, please cite the following paper:
+
+```bibtex
+@inproceedings{lutz-etal-2025-prompt,
+    title = "The Prompt Makes the Person(a): A Systematic Evaluation of Sociodemographic Persona Prompting for Large Language Models",
+    author = "Lutz, Marlene  and
+      Sen, Indira  and
+      Ahnert, Georg  and
+      Rogers, Elisa  and
+      Strohmaier, Markus",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.1261/",
+    doi = "10.18653/v1/2025.findings-emnlp.1261",
+    pages = "23212--23237",
+}
+```
 
 
 
