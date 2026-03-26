@@ -1,0 +1,361 @@
+gender,race,Demographic Priming,Role Adoption,alignment,model,task
+F,White,Structured,Direct,0.72,OLMo-2-0325-32B-Instruct,QA
+F,White,Structured,Third Person,0.64,OLMo-2-0325-32B-Instruct,QA
+F,White,Structured,Interview,0.66,OLMo-2-0325-32B-Instruct,QA
+F,White,Explicit,Direct,0.73,OLMo-2-0325-32B-Instruct,QA
+F,White,Explicit,Third Person,0.66,OLMo-2-0325-32B-Instruct,QA
+F,White,Explicit,Interview,0.7,OLMo-2-0325-32B-Instruct,QA
+F,White,Name,Direct,0.71,OLMo-2-0325-32B-Instruct,QA
+F,White,Name,Third Person,0.66,OLMo-2-0325-32B-Instruct,QA
+F,White,Name,Interview,0.68,OLMo-2-0325-32B-Instruct,QA
+F,Asian,Structured,Direct,0.59,OLMo-2-0325-32B-Instruct,QA
+F,Asian,Structured,Third Person,0.56,OLMo-2-0325-32B-Instruct,QA
+F,Asian,Structured,Interview,0.54,OLMo-2-0325-32B-Instruct,QA
+F,Asian,Explicit,Direct,0.61,OLMo-2-0325-32B-Instruct,QA
+F,Asian,Explicit,Third Person,0.56,OLMo-2-0325-32B-Instruct,QA
+F,Asian,Explicit,Interview,0.57,OLMo-2-0325-32B-Instruct,QA
+F,Asian,Name,Direct,0.59,OLMo-2-0325-32B-Instruct,QA
+F,Asian,Name,Third Person,0.62,OLMo-2-0325-32B-Instruct,QA
+F,Asian,Name,Interview,0.51,OLMo-2-0325-32B-Instruct,QA
+F,Hispanic,Structured,Direct,0.52,OLMo-2-0325-32B-Instruct,QA
+F,Hispanic,Structured,Third Person,0.51,OLMo-2-0325-32B-Instruct,QA
+F,Hispanic,Structured,Interview,0.48,OLMo-2-0325-32B-Instruct,QA
+F,Hispanic,Explicit,Direct,0.51,OLMo-2-0325-32B-Instruct,QA
+F,Hispanic,Explicit,Third Person,0.5,OLMo-2-0325-32B-Instruct,QA
+F,Hispanic,Explicit,Interview,0.48,OLMo-2-0325-32B-Instruct,QA
+F,Hispanic,Name,Direct,0.5,OLMo-2-0325-32B-Instruct,QA
+F,Hispanic,Name,Third Person,0.52,OLMo-2-0325-32B-Instruct,QA
+F,Hispanic,Name,Interview,0.49,OLMo-2-0325-32B-Instruct,QA
+F,Black,Structured,Direct,0.53,OLMo-2-0325-32B-Instruct,QA
+F,Black,Structured,Third Person,0.54,OLMo-2-0325-32B-Instruct,QA
+F,Black,Structured,Interview,0.56,OLMo-2-0325-32B-Instruct,QA
+F,Black,Explicit,Direct,0.51,OLMo-2-0325-32B-Instruct,QA
+F,Black,Explicit,Third Person,0.5,OLMo-2-0325-32B-Instruct,QA
+F,Black,Explicit,Interview,0.57,OLMo-2-0325-32B-Instruct,QA
+F,Black,Name,Direct,0.55,OLMo-2-0325-32B-Instruct,QA
+F,Black,Name,Third Person,0.51,OLMo-2-0325-32B-Instruct,QA
+F,Black,Name,Interview,0.54,OLMo-2-0325-32B-Instruct,QA
+M,White,Structured,Direct,0.51,OLMo-2-0325-32B-Instruct,QA
+M,White,Structured,Third Person,0.51,OLMo-2-0325-32B-Instruct,QA
+M,White,Structured,Interview,0.53,OLMo-2-0325-32B-Instruct,QA
+M,White,Explicit,Direct,0.52,OLMo-2-0325-32B-Instruct,QA
+M,White,Explicit,Third Person,0.54,OLMo-2-0325-32B-Instruct,QA
+M,White,Explicit,Interview,0.52,OLMo-2-0325-32B-Instruct,QA
+M,White,Name,Direct,0.58,OLMo-2-0325-32B-Instruct,QA
+M,White,Name,Third Person,0.53,OLMo-2-0325-32B-Instruct,QA
+M,White,Name,Interview,0.51,OLMo-2-0325-32B-Instruct,QA
+M,Asian,Structured,Direct,0.64,OLMo-2-0325-32B-Instruct,QA
+M,Asian,Structured,Third Person,0.62,OLMo-2-0325-32B-Instruct,QA
+M,Asian,Structured,Interview,0.62,OLMo-2-0325-32B-Instruct,QA
+M,Asian,Explicit,Direct,0.68,OLMo-2-0325-32B-Instruct,QA
+M,Asian,Explicit,Third Person,0.63,OLMo-2-0325-32B-Instruct,QA
+M,Asian,Explicit,Interview,0.61,OLMo-2-0325-32B-Instruct,QA
+M,Asian,Name,Direct,0.69,OLMo-2-0325-32B-Instruct,QA
+M,Asian,Name,Third Person,0.66,OLMo-2-0325-32B-Instruct,QA
+M,Asian,Name,Interview,0.63,OLMo-2-0325-32B-Instruct,QA
+M,Hispanic,Structured,Direct,0.48,OLMo-2-0325-32B-Instruct,QA
+M,Hispanic,Structured,Third Person,0.47,OLMo-2-0325-32B-Instruct,QA
+M,Hispanic,Structured,Interview,0.47,OLMo-2-0325-32B-Instruct,QA
+M,Hispanic,Explicit,Direct,0.51,OLMo-2-0325-32B-Instruct,QA
+M,Hispanic,Explicit,Third Person,0.48,OLMo-2-0325-32B-Instruct,QA
+M,Hispanic,Explicit,Interview,0.49,OLMo-2-0325-32B-Instruct,QA
+M,Hispanic,Name,Direct,0.54,OLMo-2-0325-32B-Instruct,QA
+M,Hispanic,Name,Third Person,0.48,OLMo-2-0325-32B-Instruct,QA
+M,Hispanic,Name,Interview,0.5,OLMo-2-0325-32B-Instruct,QA
+M,Black,Structured,Direct,0.55,OLMo-2-0325-32B-Instruct,QA
+M,Black,Structured,Third Person,0.54,OLMo-2-0325-32B-Instruct,QA
+M,Black,Structured,Interview,0.56,OLMo-2-0325-32B-Instruct,QA
+M,Black,Explicit,Direct,0.53,OLMo-2-0325-32B-Instruct,QA
+M,Black,Explicit,Third Person,0.48,OLMo-2-0325-32B-Instruct,QA
+M,Black,Explicit,Interview,0.57,OLMo-2-0325-32B-Instruct,QA
+M,Black,Name,Direct,0.57,OLMo-2-0325-32B-Instruct,QA
+M,Black,Name,Third Person,0.47,OLMo-2-0325-32B-Instruct,QA
+M,Black,Name,Interview,0.52,OLMo-2-0325-32B-Instruct,QA
+F,White,Structured,Direct,0.48,OLMo-2-1124-7B-Instruct,QA
+F,White,Structured,Third Person,0.52,OLMo-2-1124-7B-Instruct,QA
+F,White,Structured,Interview,0.46,OLMo-2-1124-7B-Instruct,QA
+F,White,Explicit,Direct,0.47,OLMo-2-1124-7B-Instruct,QA
+F,White,Explicit,Third Person,0.49,OLMo-2-1124-7B-Instruct,QA
+F,White,Explicit,Interview,0.46,OLMo-2-1124-7B-Instruct,QA
+F,White,Name,Direct,0.45,OLMo-2-1124-7B-Instruct,QA
+F,White,Name,Third Person,0.41,OLMo-2-1124-7B-Instruct,QA
+F,White,Name,Interview,0.49,OLMo-2-1124-7B-Instruct,QA
+F,Asian,Structured,Direct,0.51,OLMo-2-1124-7B-Instruct,QA
+F,Asian,Structured,Third Person,0.52,OLMo-2-1124-7B-Instruct,QA
+F,Asian,Structured,Interview,0.53,OLMo-2-1124-7B-Instruct,QA
+F,Asian,Explicit,Direct,0.5,OLMo-2-1124-7B-Instruct,QA
+F,Asian,Explicit,Third Person,0.55,OLMo-2-1124-7B-Instruct,QA
+F,Asian,Explicit,Interview,0.51,OLMo-2-1124-7B-Instruct,QA
+F,Asian,Name,Direct,0.52,OLMo-2-1124-7B-Instruct,QA
+F,Asian,Name,Third Person,0.5,OLMo-2-1124-7B-Instruct,QA
+F,Asian,Name,Interview,0.52,OLMo-2-1124-7B-Instruct,QA
+F,Hispanic,Structured,Direct,0.47,OLMo-2-1124-7B-Instruct,QA
+F,Hispanic,Structured,Third Person,0.46,OLMo-2-1124-7B-Instruct,QA
+F,Hispanic,Structured,Interview,0.49,OLMo-2-1124-7B-Instruct,QA
+F,Hispanic,Explicit,Direct,0.43,OLMo-2-1124-7B-Instruct,QA
+F,Hispanic,Explicit,Third Person,0.43,OLMo-2-1124-7B-Instruct,QA
+F,Hispanic,Explicit,Interview,0.46,OLMo-2-1124-7B-Instruct,QA
+F,Hispanic,Name,Direct,0.44,OLMo-2-1124-7B-Instruct,QA
+F,Hispanic,Name,Third Person,0.44,OLMo-2-1124-7B-Instruct,QA
+F,Hispanic,Name,Interview,0.46,OLMo-2-1124-7B-Instruct,QA
+F,Black,Structured,Direct,0.51,OLMo-2-1124-7B-Instruct,QA
+F,Black,Structured,Third Person,0.46,OLMo-2-1124-7B-Instruct,QA
+F,Black,Structured,Interview,0.48,OLMo-2-1124-7B-Instruct,QA
+F,Black,Explicit,Direct,0.45,OLMo-2-1124-7B-Instruct,QA
+F,Black,Explicit,Third Person,0.42,OLMo-2-1124-7B-Instruct,QA
+F,Black,Explicit,Interview,0.47,OLMo-2-1124-7B-Instruct,QA
+F,Black,Name,Direct,0.46,OLMo-2-1124-7B-Instruct,QA
+F,Black,Name,Third Person,0.41,OLMo-2-1124-7B-Instruct,QA
+F,Black,Name,Interview,0.42,OLMo-2-1124-7B-Instruct,QA
+M,White,Structured,Direct,0.38,OLMo-2-1124-7B-Instruct,QA
+M,White,Structured,Third Person,0.34,OLMo-2-1124-7B-Instruct,QA
+M,White,Structured,Interview,0.35,OLMo-2-1124-7B-Instruct,QA
+M,White,Explicit,Direct,0.34,OLMo-2-1124-7B-Instruct,QA
+M,White,Explicit,Third Person,0.33,OLMo-2-1124-7B-Instruct,QA
+M,White,Explicit,Interview,0.36,OLMo-2-1124-7B-Instruct,QA
+M,White,Name,Direct,0.36,OLMo-2-1124-7B-Instruct,QA
+M,White,Name,Third Person,0.32,OLMo-2-1124-7B-Instruct,QA
+M,White,Name,Interview,0.38,OLMo-2-1124-7B-Instruct,QA
+M,Asian,Structured,Direct,0.5,OLMo-2-1124-7B-Instruct,QA
+M,Asian,Structured,Third Person,0.51,OLMo-2-1124-7B-Instruct,QA
+M,Asian,Structured,Interview,0.51,OLMo-2-1124-7B-Instruct,QA
+M,Asian,Explicit,Direct,0.56,OLMo-2-1124-7B-Instruct,QA
+M,Asian,Explicit,Third Person,0.57,OLMo-2-1124-7B-Instruct,QA
+M,Asian,Explicit,Interview,0.48,OLMo-2-1124-7B-Instruct,QA
+M,Asian,Name,Direct,0.48,OLMo-2-1124-7B-Instruct,QA
+M,Asian,Name,Third Person,0.44,OLMo-2-1124-7B-Instruct,QA
+M,Asian,Name,Interview,0.51,OLMo-2-1124-7B-Instruct,QA
+M,Hispanic,Structured,Direct,0.44,OLMo-2-1124-7B-Instruct,QA
+M,Hispanic,Structured,Third Person,0.43,OLMo-2-1124-7B-Instruct,QA
+M,Hispanic,Structured,Interview,0.42,OLMo-2-1124-7B-Instruct,QA
+M,Hispanic,Explicit,Direct,0.41,OLMo-2-1124-7B-Instruct,QA
+M,Hispanic,Explicit,Third Person,0.39,OLMo-2-1124-7B-Instruct,QA
+M,Hispanic,Explicit,Interview,0.45,OLMo-2-1124-7B-Instruct,QA
+M,Hispanic,Name,Direct,0.38,OLMo-2-1124-7B-Instruct,QA
+M,Hispanic,Name,Third Person,0.37,OLMo-2-1124-7B-Instruct,QA
+M,Hispanic,Name,Interview,0.44,OLMo-2-1124-7B-Instruct,QA
+M,Black,Structured,Direct,0.47,OLMo-2-1124-7B-Instruct,QA
+M,Black,Structured,Third Person,0.41,OLMo-2-1124-7B-Instruct,QA
+M,Black,Structured,Interview,0.47,OLMo-2-1124-7B-Instruct,QA
+M,Black,Explicit,Direct,0.42,OLMo-2-1124-7B-Instruct,QA
+M,Black,Explicit,Third Person,0.36,OLMo-2-1124-7B-Instruct,QA
+M,Black,Explicit,Interview,0.44,OLMo-2-1124-7B-Instruct,QA
+M,Black,Name,Direct,0.45,OLMo-2-1124-7B-Instruct,QA
+M,Black,Name,Third Person,0.41,OLMo-2-1124-7B-Instruct,QA
+M,Black,Name,Interview,0.42,OLMo-2-1124-7B-Instruct,QA
+F,White,Structured,Direct,0.59,Llama-3.1-8B-Instruct,QA
+F,White,Structured,Third Person,0.53,Llama-3.1-8B-Instruct,QA
+F,White,Structured,Interview,0.53,Llama-3.1-8B-Instruct,QA
+F,White,Explicit,Direct,0.58,Llama-3.1-8B-Instruct,QA
+F,White,Explicit,Third Person,0.57,Llama-3.1-8B-Instruct,QA
+F,White,Explicit,Interview,0.5,Llama-3.1-8B-Instruct,QA
+F,White,Name,Direct,0.53,Llama-3.1-8B-Instruct,QA
+F,White,Name,Third Person,0.54,Llama-3.1-8B-Instruct,QA
+F,White,Name,Interview,0.45,Llama-3.1-8B-Instruct,QA
+F,Asian,Structured,Direct,0.59,Llama-3.1-8B-Instruct,QA
+F,Asian,Structured,Third Person,0.57,Llama-3.1-8B-Instruct,QA
+F,Asian,Structured,Interview,0.55,Llama-3.1-8B-Instruct,QA
+F,Asian,Explicit,Direct,0.56,Llama-3.1-8B-Instruct,QA
+F,Asian,Explicit,Third Person,0.54,Llama-3.1-8B-Instruct,QA
+F,Asian,Explicit,Interview,0.53,Llama-3.1-8B-Instruct,QA
+F,Asian,Name,Direct,0.55,Llama-3.1-8B-Instruct,QA
+F,Asian,Name,Third Person,0.54,Llama-3.1-8B-Instruct,QA
+F,Asian,Name,Interview,0.53,Llama-3.1-8B-Instruct,QA
+F,Hispanic,Structured,Direct,0.48,Llama-3.1-8B-Instruct,QA
+F,Hispanic,Structured,Third Person,0.49,Llama-3.1-8B-Instruct,QA
+F,Hispanic,Structured,Interview,0.44,Llama-3.1-8B-Instruct,QA
+F,Hispanic,Explicit,Direct,0.46,Llama-3.1-8B-Instruct,QA
+F,Hispanic,Explicit,Third Person,0.45,Llama-3.1-8B-Instruct,QA
+F,Hispanic,Explicit,Interview,0.39,Llama-3.1-8B-Instruct,QA
+F,Hispanic,Name,Direct,0.46,Llama-3.1-8B-Instruct,QA
+F,Hispanic,Name,Third Person,0.48,Llama-3.1-8B-Instruct,QA
+F,Hispanic,Name,Interview,0.43,Llama-3.1-8B-Instruct,QA
+F,Black,Structured,Direct,0.46,Llama-3.1-8B-Instruct,QA
+F,Black,Structured,Third Person,0.41,Llama-3.1-8B-Instruct,QA
+F,Black,Structured,Interview,0.45,Llama-3.1-8B-Instruct,QA
+F,Black,Explicit,Direct,0.38,Llama-3.1-8B-Instruct,QA
+F,Black,Explicit,Third Person,0.36,Llama-3.1-8B-Instruct,QA
+F,Black,Explicit,Interview,0.42,Llama-3.1-8B-Instruct,QA
+F,Black,Name,Direct,0.47,Llama-3.1-8B-Instruct,QA
+F,Black,Name,Third Person,0.51,Llama-3.1-8B-Instruct,QA
+F,Black,Name,Interview,0.45,Llama-3.1-8B-Instruct,QA
+M,White,Structured,Direct,0.42,Llama-3.1-8B-Instruct,QA
+M,White,Structured,Third Person,0.44,Llama-3.1-8B-Instruct,QA
+M,White,Structured,Interview,0.4,Llama-3.1-8B-Instruct,QA
+M,White,Explicit,Direct,0.44,Llama-3.1-8B-Instruct,QA
+M,White,Explicit,Third Person,0.43,Llama-3.1-8B-Instruct,QA
+M,White,Explicit,Interview,0.38,Llama-3.1-8B-Instruct,QA
+M,White,Name,Direct,0.41,Llama-3.1-8B-Instruct,QA
+M,White,Name,Third Person,0.41,Llama-3.1-8B-Instruct,QA
+M,White,Name,Interview,0.39,Llama-3.1-8B-Instruct,QA
+M,Asian,Structured,Direct,0.56,Llama-3.1-8B-Instruct,QA
+M,Asian,Structured,Third Person,0.58,Llama-3.1-8B-Instruct,QA
+M,Asian,Structured,Interview,0.5,Llama-3.1-8B-Instruct,QA
+M,Asian,Explicit,Direct,0.51,Llama-3.1-8B-Instruct,QA
+M,Asian,Explicit,Third Person,0.52,Llama-3.1-8B-Instruct,QA
+M,Asian,Explicit,Interview,0.5,Llama-3.1-8B-Instruct,QA
+M,Asian,Name,Direct,0.49,Llama-3.1-8B-Instruct,QA
+M,Asian,Name,Third Person,0.5,Llama-3.1-8B-Instruct,QA
+M,Asian,Name,Interview,0.51,Llama-3.1-8B-Instruct,QA
+M,Hispanic,Structured,Direct,0.57,Llama-3.1-8B-Instruct,QA
+M,Hispanic,Structured,Third Person,0.52,Llama-3.1-8B-Instruct,QA
+M,Hispanic,Structured,Interview,0.49,Llama-3.1-8B-Instruct,QA
+M,Hispanic,Explicit,Direct,0.57,Llama-3.1-8B-Instruct,QA
+M,Hispanic,Explicit,Third Person,0.54,Llama-3.1-8B-Instruct,QA
+M,Hispanic,Explicit,Interview,0.47,Llama-3.1-8B-Instruct,QA
+M,Hispanic,Name,Direct,0.5,Llama-3.1-8B-Instruct,QA
+M,Hispanic,Name,Third Person,0.53,Llama-3.1-8B-Instruct,QA
+M,Hispanic,Name,Interview,0.47,Llama-3.1-8B-Instruct,QA
+M,Black,Structured,Direct,0.52,Llama-3.1-8B-Instruct,QA
+M,Black,Structured,Third Person,0.47,Llama-3.1-8B-Instruct,QA
+M,Black,Structured,Interview,0.48,Llama-3.1-8B-Instruct,QA
+M,Black,Explicit,Direct,0.47,Llama-3.1-8B-Instruct,QA
+M,Black,Explicit,Third Person,0.43,Llama-3.1-8B-Instruct,QA
+M,Black,Explicit,Interview,0.47,Llama-3.1-8B-Instruct,QA
+M,Black,Name,Direct,0.47,Llama-3.1-8B-Instruct,QA
+M,Black,Name,Third Person,0.47,Llama-3.1-8B-Instruct,QA
+M,Black,Name,Interview,0.46,Llama-3.1-8B-Instruct,QA
+F,White,Structured,Direct,0.65,Llama-3.3-70B-Instruct,QA
+F,White,Structured,Third Person,0.66,Llama-3.3-70B-Instruct,QA
+F,White,Structured,Interview,0.6,Llama-3.3-70B-Instruct,QA
+F,White,Explicit,Direct,0.66,Llama-3.3-70B-Instruct,QA
+F,White,Explicit,Third Person,0.67,Llama-3.3-70B-Instruct,QA
+F,White,Explicit,Interview,0.58,Llama-3.3-70B-Instruct,QA
+F,White,Name,Direct,0.61,Llama-3.3-70B-Instruct,QA
+F,White,Name,Third Person,0.64,Llama-3.3-70B-Instruct,QA
+F,White,Name,Interview,0.63,Llama-3.3-70B-Instruct,QA
+F,Asian,Structured,Direct,0.71,Llama-3.3-70B-Instruct,QA
+F,Asian,Structured,Third Person,0.64,Llama-3.3-70B-Instruct,QA
+F,Asian,Structured,Interview,0.75,Llama-3.3-70B-Instruct,QA
+F,Asian,Explicit,Direct,0.73,Llama-3.3-70B-Instruct,QA
+F,Asian,Explicit,Third Person,0.63,Llama-3.3-70B-Instruct,QA
+F,Asian,Explicit,Interview,0.72,Llama-3.3-70B-Instruct,QA
+F,Asian,Name,Direct,0.7,Llama-3.3-70B-Instruct,QA
+F,Asian,Name,Third Person,0.7,Llama-3.3-70B-Instruct,QA
+F,Asian,Name,Interview,0.7,Llama-3.3-70B-Instruct,QA
+F,Hispanic,Structured,Direct,0.57,Llama-3.3-70B-Instruct,QA
+F,Hispanic,Structured,Third Person,0.51,Llama-3.3-70B-Instruct,QA
+F,Hispanic,Structured,Interview,0.57,Llama-3.3-70B-Instruct,QA
+F,Hispanic,Explicit,Direct,0.55,Llama-3.3-70B-Instruct,QA
+F,Hispanic,Explicit,Third Person,0.53,Llama-3.3-70B-Instruct,QA
+F,Hispanic,Explicit,Interview,0.58,Llama-3.3-70B-Instruct,QA
+F,Hispanic,Name,Direct,0.52,Llama-3.3-70B-Instruct,QA
+F,Hispanic,Name,Third Person,0.48,Llama-3.3-70B-Instruct,QA
+F,Hispanic,Name,Interview,0.61,Llama-3.3-70B-Instruct,QA
+F,Black,Structured,Direct,0.61,Llama-3.3-70B-Instruct,QA
+F,Black,Structured,Third Person,0.57,Llama-3.3-70B-Instruct,QA
+F,Black,Structured,Interview,0.6,Llama-3.3-70B-Instruct,QA
+F,Black,Explicit,Direct,0.57,Llama-3.3-70B-Instruct,QA
+F,Black,Explicit,Third Person,0.59,Llama-3.3-70B-Instruct,QA
+F,Black,Explicit,Interview,0.6,Llama-3.3-70B-Instruct,QA
+F,Black,Name,Direct,0.58,Llama-3.3-70B-Instruct,QA
+F,Black,Name,Third Person,0.56,Llama-3.3-70B-Instruct,QA
+F,Black,Name,Interview,0.65,Llama-3.3-70B-Instruct,QA
+M,White,Structured,Direct,0.58,Llama-3.3-70B-Instruct,QA
+M,White,Structured,Third Person,0.57,Llama-3.3-70B-Instruct,QA
+M,White,Structured,Interview,0.56,Llama-3.3-70B-Instruct,QA
+M,White,Explicit,Direct,0.57,Llama-3.3-70B-Instruct,QA
+M,White,Explicit,Third Person,0.55,Llama-3.3-70B-Instruct,QA
+M,White,Explicit,Interview,0.56,Llama-3.3-70B-Instruct,QA
+M,White,Name,Direct,0.53,Llama-3.3-70B-Instruct,QA
+M,White,Name,Third Person,0.58,Llama-3.3-70B-Instruct,QA
+M,White,Name,Interview,0.52,Llama-3.3-70B-Instruct,QA
+M,Asian,Structured,Direct,0.73,Llama-3.3-70B-Instruct,QA
+M,Asian,Structured,Third Person,0.66,Llama-3.3-70B-Instruct,QA
+M,Asian,Structured,Interview,0.66,Llama-3.3-70B-Instruct,QA
+M,Asian,Explicit,Direct,0.68,Llama-3.3-70B-Instruct,QA
+M,Asian,Explicit,Third Person,0.68,Llama-3.3-70B-Instruct,QA
+M,Asian,Explicit,Interview,0.71,Llama-3.3-70B-Instruct,QA
+M,Asian,Name,Direct,0.6,Llama-3.3-70B-Instruct,QA
+M,Asian,Name,Third Person,0.63,Llama-3.3-70B-Instruct,QA
+M,Asian,Name,Interview,0.64,Llama-3.3-70B-Instruct,QA
+M,Hispanic,Structured,Direct,0.64,Llama-3.3-70B-Instruct,QA
+M,Hispanic,Structured,Third Person,0.61,Llama-3.3-70B-Instruct,QA
+M,Hispanic,Structured,Interview,0.58,Llama-3.3-70B-Instruct,QA
+M,Hispanic,Explicit,Direct,0.62,Llama-3.3-70B-Instruct,QA
+M,Hispanic,Explicit,Third Person,0.61,Llama-3.3-70B-Instruct,QA
+M,Hispanic,Explicit,Interview,0.59,Llama-3.3-70B-Instruct,QA
+M,Hispanic,Name,Direct,0.57,Llama-3.3-70B-Instruct,QA
+M,Hispanic,Name,Third Person,0.55,Llama-3.3-70B-Instruct,QA
+M,Hispanic,Name,Interview,0.58,Llama-3.3-70B-Instruct,QA
+M,Black,Structured,Direct,0.61,Llama-3.3-70B-Instruct,QA
+M,Black,Structured,Third Person,0.61,Llama-3.3-70B-Instruct,QA
+M,Black,Structured,Interview,0.6,Llama-3.3-70B-Instruct,QA
+M,Black,Explicit,Direct,0.57,Llama-3.3-70B-Instruct,QA
+M,Black,Explicit,Third Person,0.62,Llama-3.3-70B-Instruct,QA
+M,Black,Explicit,Interview,0.62,Llama-3.3-70B-Instruct,QA
+M,Black,Name,Direct,0.58,Llama-3.3-70B-Instruct,QA
+M,Black,Name,Third Person,0.58,Llama-3.3-70B-Instruct,QA
+M,Black,Name,Interview,0.59,Llama-3.3-70B-Instruct,QA
+F,White,Structured,Direct,0.53,gemma-3-27b-it,QA
+F,White,Structured,Third Person,0.53,gemma-3-27b-it,QA
+F,White,Structured,Interview,0.45,gemma-3-27b-it,QA
+F,White,Explicit,Direct,0.56,gemma-3-27b-it,QA
+F,White,Explicit,Third Person,0.49,gemma-3-27b-it,QA
+F,White,Explicit,Interview,0.47,gemma-3-27b-it,QA
+F,White,Name,Direct,0.44,gemma-3-27b-it,QA
+F,White,Name,Third Person,0.49,gemma-3-27b-it,QA
+F,White,Name,Interview,0.53,gemma-3-27b-it,QA
+F,Asian,Structured,Direct,0.59,gemma-3-27b-it,QA
+F,Asian,Structured,Third Person,0.53,gemma-3-27b-it,QA
+F,Asian,Structured,Interview,0.53,gemma-3-27b-it,QA
+F,Asian,Explicit,Direct,0.55,gemma-3-27b-it,QA
+F,Asian,Explicit,Third Person,0.56,gemma-3-27b-it,QA
+F,Asian,Explicit,Interview,0.51,gemma-3-27b-it,QA
+F,Asian,Name,Direct,0.54,gemma-3-27b-it,QA
+F,Asian,Name,Third Person,0.59,gemma-3-27b-it,QA
+F,Asian,Name,Interview,0.59,gemma-3-27b-it,QA
+F,Hispanic,Structured,Direct,0.48,gemma-3-27b-it,QA
+F,Hispanic,Structured,Third Person,0.42,gemma-3-27b-it,QA
+F,Hispanic,Structured,Interview,0.43,gemma-3-27b-it,QA
+F,Hispanic,Explicit,Direct,0.47,gemma-3-27b-it,QA
+F,Hispanic,Explicit,Third Person,0.43,gemma-3-27b-it,QA
+F,Hispanic,Explicit,Interview,0.42,gemma-3-27b-it,QA
+F,Hispanic,Name,Direct,0.42,gemma-3-27b-it,QA
+F,Hispanic,Name,Third Person,0.43,gemma-3-27b-it,QA
+F,Hispanic,Name,Interview,0.5,gemma-3-27b-it,QA
+F,Black,Structured,Direct,0.4,gemma-3-27b-it,QA
+F,Black,Structured,Third Person,0.37,gemma-3-27b-it,QA
+F,Black,Structured,Interview,0.41,gemma-3-27b-it,QA
+F,Black,Explicit,Direct,0.4,gemma-3-27b-it,QA
+F,Black,Explicit,Third Person,0.38,gemma-3-27b-it,QA
+F,Black,Explicit,Interview,0.44,gemma-3-27b-it,QA
+F,Black,Name,Direct,0.42,gemma-3-27b-it,QA
+F,Black,Name,Third Person,0.44,gemma-3-27b-it,QA
+F,Black,Name,Interview,0.48,gemma-3-27b-it,QA
+M,White,Structured,Direct,0.49,gemma-3-27b-it,QA
+M,White,Structured,Third Person,0.53,gemma-3-27b-it,QA
+M,White,Structured,Interview,0.48,gemma-3-27b-it,QA
+M,White,Explicit,Direct,0.46,gemma-3-27b-it,QA
+M,White,Explicit,Third Person,0.5,gemma-3-27b-it,QA
+M,White,Explicit,Interview,0.45,gemma-3-27b-it,QA
+M,White,Name,Direct,0.45,gemma-3-27b-it,QA
+M,White,Name,Third Person,0.54,gemma-3-27b-it,QA
+M,White,Name,Interview,0.5,gemma-3-27b-it,QA
+M,Asian,Structured,Direct,0.53,gemma-3-27b-it,QA
+M,Asian,Structured,Third Person,0.47,gemma-3-27b-it,QA
+M,Asian,Structured,Interview,0.49,gemma-3-27b-it,QA
+M,Asian,Explicit,Direct,0.46,gemma-3-27b-it,QA
+M,Asian,Explicit,Third Person,0.51,gemma-3-27b-it,QA
+M,Asian,Explicit,Interview,0.5,gemma-3-27b-it,QA
+M,Asian,Name,Direct,0.46,gemma-3-27b-it,QA
+M,Asian,Name,Third Person,0.48,gemma-3-27b-it,QA
+M,Asian,Name,Interview,0.51,gemma-3-27b-it,QA
+M,Hispanic,Structured,Direct,0.48,gemma-3-27b-it,QA
+M,Hispanic,Structured,Third Person,0.4,gemma-3-27b-it,QA
+M,Hispanic,Structured,Interview,0.52,gemma-3-27b-it,QA
+M,Hispanic,Explicit,Direct,0.51,gemma-3-27b-it,QA
+M,Hispanic,Explicit,Third Person,0.42,gemma-3-27b-it,QA
+M,Hispanic,Explicit,Interview,0.5,gemma-3-27b-it,QA
+M,Hispanic,Name,Direct,0.47,gemma-3-27b-it,QA
+M,Hispanic,Name,Third Person,0.44,gemma-3-27b-it,QA
+M,Hispanic,Name,Interview,0.55,gemma-3-27b-it,QA
+M,Black,Structured,Direct,0.46,gemma-3-27b-it,QA
+M,Black,Structured,Third Person,0.44,gemma-3-27b-it,QA
+M,Black,Structured,Interview,0.46,gemma-3-27b-it,QA
+M,Black,Explicit,Direct,0.44,gemma-3-27b-it,QA
+M,Black,Explicit,Third Person,0.44,gemma-3-27b-it,QA
+M,Black,Explicit,Interview,0.46,gemma-3-27b-it,QA
+M,Black,Name,Direct,0.5,gemma-3-27b-it,QA
+M,Black,Name,Third Person,0.39,gemma-3-27b-it,QA
+M,Black,Name,Interview,0.5,gemma-3-27b-it,QA
