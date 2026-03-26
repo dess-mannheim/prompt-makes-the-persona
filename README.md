@@ -33,12 +33,12 @@ We systematically evaluate how different persona prompting strategies affect LLM
 * `ai_or_human.py`: Check whether the LLM adopted the assigned role
 * `anonymize.py`: Remove demographic markers
 * `/analysis`: Evaluation scripts & evaluation results
-* `/data`: Prompts and generated outputs
+* `/data`: Prompts & LLM generated simulations
 
 ## 🚀 Example Usage
 
 ### 1. Run LLM Inference
-Generate multiple outputs for simulations.
+Run `k` simulations for every combination of prompt strategy and demographic group.
 
 Example: Generate 10 self-descriptions using Llama-3.1-8B-Instruct:
 
@@ -67,13 +67,22 @@ python python ai_or_human.py \
     --task SD
 ```
 
-Remove demographic markers from the LLM outputs (needed for some downstream analyses):
+Remove demographic markers from the LLM outputs (required for analyses of stereotypes and semantic diversity):
 
 ```bash
 python anonymize.py \
     --model_id meta-llama/Llama-3.1-8B-Instruct \
     --task SD
-``` 
+```
+
+### 3. Analysis
+After generating the simulations, use the scripts in `/analysis` to evaluate them along the following dimensions:
+
+- simulation language (`/language_switching`)
+- stereotypes (`/marked_personas`)
+- alignment with survey responses (`/opinion_alignment`)
+- semantic diversity (`/semantic_diversity`)
+
 
 
 
