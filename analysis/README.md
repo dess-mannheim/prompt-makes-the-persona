@@ -13,8 +13,7 @@ The script `classify_lingua.py` performs language detection on the simulation ou
 
 ## 2. Stereotypes
 
-We adapt the code from the original [Marked Personas paper](https://aclanthology.org/2023.acl-long.84.pdf) from: https://github.com/myracheng/markedpersonas
-
+We adapt the code from the original [Marked Personas paper](https://aclanthology.org/2023.acl-long.84.pdf) from: https://github.com/myracheng/markedpersonas. The script  `main.py` computes Marked Words for all combinations of demographic groups and prompt strategies, as well as the accuracy of an SVM classifier in distinguishing simulations from different demographic groups. To specify the models and task, set the global variables `MODELS` and `TASK` in the script. 
 
 ## 3. Opinion Alignment
 
