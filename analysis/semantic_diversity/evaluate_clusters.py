@@ -14,8 +14,6 @@ MODELS = [
     "meta-llama/Llama-3.3-70B-Instruct",
 ]
 
-BASE_PATH = '/mnt/homes/georg/tracing-personas/results/results_all_tasks'
-
 
 def get_task_details(task_name):
     if task_name == 'SD':
@@ -149,9 +147,11 @@ if __name__ == "__main__":
     if task is None:
         raise ValueError(f'Cannot annotate task {task['name']}, please select one of "SD" or "Bio"')
 
+    # path to results
     res_path = f"../../data/results/{task['name']}"
 
-    embeddings_df = pd.read_csv(f'{res_path}/semantic_diversity/embeddings_anonymized_{model_short}.csv', index_col=0)
+    # path to embeddings
+    embeddings_df = pd.read_csv(f'{task['name']}/embeddings_anonymized_{model_short}.csv', index_col=0)
     main_df = pd.read_csv(f'{res_path}/merged_results_anonymized_{model_short}.csv', index_col=0)
     combined_df = pd.merge(
         left=main_df, right=embeddings_df,
@@ -173,5 +173,5 @@ if __name__ == "__main__":
     metrics_df['model'] = model_short
     metrics_df['task'] = task['column']
 
-    metrics_df.to_csv(f'{res_path}/semantic_diversity/cluster_metrics_anonymized_{model_short}.csv')
+    metrics_df.to_csv(f'{task['name']}/cluster_metrics_anonymized_{model_short}.csv')
     

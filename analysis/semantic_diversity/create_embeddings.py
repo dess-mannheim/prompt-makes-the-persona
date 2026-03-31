@@ -26,7 +26,7 @@ def create_embeddings(model_name, task):
 
     embedding_df = pd.DataFrame(embeddings, index=parsed_docs.index)
 
-    out_dir = f"{RES_PATH}/{task}/semantic_diversity"
+    out_dir = f"{task}" 
     os.makedirs(out_dir, exist_ok=True)
 
     embedding_df.to_csv(f'{out_dir}/embeddings_anonymized_{model_name}.csv')

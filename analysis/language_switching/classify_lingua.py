@@ -38,7 +38,7 @@ for task, model in tqdm(task_model):
         except:
             pass
 
-    out_dir = f"{RES_PATH}/{task['name']}/language_switching"
+    out_dir = f"{task['name']}"
     os.makedirs(out_dir, exist_ok=True)
 
     classified_languages.to_csv(f"{out_dir}/classified_languages_{model_short}.csv")
